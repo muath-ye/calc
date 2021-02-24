@@ -1,0 +1,24 @@
+{
+    "name": "muath-ye/calculator",
+    "description": "Do simple calculation.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muathye",
+            "email": "muath.ye@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MuathYe\\Providers\\CalculatorServiceProvider"
+            ],
+            "aliases": {
+                "Calculator": "MuathYe\\Utilities\\Calculator"
+            }
+        }
+    }
+}
