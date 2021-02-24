@@ -9,8 +9,23 @@
             "email": "muath.ye@gmail.com"
         }
     ],
+    "keywords": [
+        "muath-ye",
+        "calc",
+        "calculator"
+    ],
     "minimum-stability": "dev",
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "MuathYe\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
