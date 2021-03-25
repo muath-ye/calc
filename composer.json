@@ -18,7 +18,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "MuathYe\\": "src/"
+            "MuathYe\\Calc\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -32,10 +32,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MuathYe\\Providers\\CalculatorServiceProvider"
+                "MuathYe\\Calc\\Providers\\CalculatorServiceProvider"
             ],
             "aliases": {
-                "Calculator": "MuathYe\\Utilities\\Calculator"
+                "Calculator": "MuathYe\\Calc\\Utilities\\Calculator"
             }
         }
     }

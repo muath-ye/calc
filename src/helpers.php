@@ -1,6 +1,6 @@
 <?php
 
-use MuathYe\Utilities\Calculator;
+use MuathYe\Calc\Utilities\Calculator;
 
 /**
  * Returns the Calculator instance

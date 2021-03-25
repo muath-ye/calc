@@ -1,6 +1,6 @@
 <?php
 
-namespace MuathYe\Providers;
+namespace MuathYe\Calc\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

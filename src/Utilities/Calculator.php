@@ -1,6 +1,6 @@
 <?php
 
-namespace MuathYe\Utilities;
+namespace MuathYe\Calc\Utilities;
 
 class Calculator
 {
